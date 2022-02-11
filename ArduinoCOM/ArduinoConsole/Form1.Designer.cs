@@ -38,14 +38,16 @@ namespace ArduinoConsole
             this.idLed = new System.Windows.Forms.NumericUpDown();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.getStatus = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.errorPortAlert = new System.Windows.Forms.Label();
             this.statusLabel = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.trackDim = new System.Windows.Forms.TrackBar();
             this.noIdAlert = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.idLed)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackDim)).BeginInit();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,7 +123,8 @@ namespace ArduinoConsole
             // 
             this.progressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.progressBar1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.progressBar1.Location = new System.Drawing.Point(26, 119);
+            this.progressBar1.Location = new System.Drawing.Point(26, 173);
+            this.progressBar1.Maximum = 105;
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(434, 26);
             this.progressBar1.TabIndex = 11;
@@ -136,18 +139,18 @@ namespace ArduinoConsole
             this.getStatus.UseVisualStyleBackColor = true;
             this.getStatus.Click += new System.EventHandler(this.getStatus_Click);
             // 
-            // label1
+            // errorPortAlert
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(18, 173);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 15);
-            this.label1.TabIndex = 13;
+            this.errorPortAlert.AutoSize = true;
+            this.errorPortAlert.ForeColor = System.Drawing.Color.Red;
+            this.errorPortAlert.Location = new System.Drawing.Point(18, 173);
+            this.errorPortAlert.Name = "errorPortAlert";
+            this.errorPortAlert.Size = new System.Drawing.Size(0, 15);
+            this.errorPortAlert.TabIndex = 13;
             // 
             // statusLabel
             // 
-            this.statusLabel.Location = new System.Drawing.Point(340, 169);
+            this.statusLabel.Location = new System.Drawing.Point(340, 218);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(120, 23);
             this.statusLabel.TabIndex = 14;
@@ -155,6 +158,7 @@ namespace ArduinoConsole
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.trackDim);
             this.groupBox1.Controls.Add(this.noIdAlert);
             this.groupBox1.Controls.Add(this.statusLabel);
             this.groupBox1.Controls.Add(this.getStatus);
@@ -171,6 +175,15 @@ namespace ArduinoConsole
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Led";
             // 
+            // trackDim
+            // 
+            this.trackDim.Location = new System.Drawing.Point(26, 112);
+            this.trackDim.Maximum = 100;
+            this.trackDim.Name = "trackDim";
+            this.trackDim.Size = new System.Drawing.Size(434, 45);
+            this.trackDim.TabIndex = 16;
+            this.trackDim.Scroll += new System.EventHandler(this.trackDim_Scroll);
+            // 
             // noIdAlert
             // 
             this.noIdAlert.AutoSize = true;
@@ -183,7 +196,7 @@ namespace ArduinoConsole
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.errorPortAlert);
             this.groupBox2.Controls.Add(this.selectedPort);
             this.groupBox2.Controls.Add(this.connectButton);
             this.groupBox2.Location = new System.Drawing.Point(17, 40);
@@ -207,6 +220,7 @@ namespace ArduinoConsole
             ((System.ComponentModel.ISupportInitialize)(this.idLed)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackDim)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
@@ -224,12 +238,13 @@ namespace ArduinoConsole
         private System.Windows.Forms.NumericUpDown idLed;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button getStatus;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label errorPortAlert;
         private System.Windows.Forms.TextBox statusLabel;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button on2;
         private System.Windows.Forms.Label noIdAlert;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TrackBar trackDim;
     }
 }
 
