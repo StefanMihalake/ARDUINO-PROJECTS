@@ -41,16 +41,19 @@ namespace ArduinoConsole
             this.label1 = new System.Windows.Forms.Label();
             this.statusLabel = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.noIdAlert = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.idLed)).BeginInit();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // connectButton
             // 
-            this.connectButton.BackColor = System.Drawing.Color.Green;
+            this.connectButton.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.connectButton.ForeColor = System.Drawing.Color.Black;
-            this.connectButton.Location = new System.Drawing.Point(28, 105);
+            this.connectButton.Location = new System.Drawing.Point(18, 108);
             this.connectButton.Name = "connectButton";
             this.connectButton.Size = new System.Drawing.Size(156, 59);
             this.connectButton.TabIndex = 0;
@@ -62,7 +65,7 @@ namespace ArduinoConsole
             // 
             this.selectedPort.AccessibleName = "";
             this.selectedPort.FormattingEnabled = true;
-            this.selectedPort.Location = new System.Drawing.Point(28, 49);
+            this.selectedPort.Location = new System.Drawing.Point(18, 52);
             this.selectedPort.Name = "selectedPort";
             this.selectedPort.Size = new System.Drawing.Size(156, 23);
             this.selectedPort.TabIndex = 1;
@@ -137,7 +140,7 @@ namespace ArduinoConsole
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(28, 170);
+            this.label1.Location = new System.Drawing.Point(18, 173);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 15);
             this.label1.TabIndex = 13;
@@ -152,6 +155,7 @@ namespace ArduinoConsole
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.noIdAlert);
             this.groupBox1.Controls.Add(this.statusLabel);
             this.groupBox1.Controls.Add(this.getStatus);
             this.groupBox1.Controls.Add(this.progressBar1);
@@ -167,15 +171,35 @@ namespace ArduinoConsole
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Led";
             // 
+            // noIdAlert
+            // 
+            this.noIdAlert.AutoSize = true;
+            this.noIdAlert.BackColor = System.Drawing.SystemColors.Control;
+            this.noIdAlert.ForeColor = System.Drawing.Color.Red;
+            this.noIdAlert.Location = new System.Drawing.Point(26, 160);
+            this.noIdAlert.Name = "noIdAlert";
+            this.noIdAlert.Size = new System.Drawing.Size(0, 15);
+            this.noIdAlert.TabIndex = 15;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.selectedPort);
+            this.groupBox2.Controls.Add(this.connectButton);
+            this.groupBox2.Location = new System.Drawing.Point(17, 40);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(214, 259);
+            this.groupBox2.TabIndex = 16;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Connect to Arduino";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(787, 338);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.selectedPort);
-            this.Controls.Add(this.connectButton);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -183,8 +207,9 @@ namespace ArduinoConsole
             ((System.ComponentModel.ISupportInitialize)(this.idLed)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -203,6 +228,8 @@ namespace ArduinoConsole
         private System.Windows.Forms.TextBox statusLabel;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button on2;
+        private System.Windows.Forms.Label noIdAlert;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 

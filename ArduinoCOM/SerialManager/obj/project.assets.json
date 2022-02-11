@@ -489,11 +489,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
       "projectName": "SerialManager",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+      "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

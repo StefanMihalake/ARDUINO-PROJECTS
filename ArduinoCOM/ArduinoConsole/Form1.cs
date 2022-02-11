@@ -19,7 +19,7 @@ namespace ArduinoConsole
         bool isConnected = false;
         String[] ports;
         SerialPort serialManager;
-
+        List<int> ids = new List<int>();
 
         public Form1()
         {
@@ -61,8 +61,12 @@ namespace ArduinoConsole
                     isConnected = true;
                     EnableCommand();
                     connectButton.Text = "Disconnect";
-                    connectButton.BackColor = Color.Red;
+                    connectButton.BackColor = Color.IndianRed;
                     label1.Text = "";
+
+                    string message = "ids";
+                    serialManager.WriteLine(message);
+
                 }
                 catch(ArgumentException ex)
                 {
@@ -82,18 +86,33 @@ namespace ArduinoConsole
         private void onButton_Click(object sender, EventArgs e)
         {
             setTrasparentStatusLabel();
-            if (onButton.Enabled && serialManager.IsOpen )
+            if (onButton.Enabled && serialManager.IsOpen)
             {
                 string id = idLed.Value.ToString();
-                string message = id + " on";
+                string message = id + "*on";
+                string get = id + "*get";
                 serialManager.WriteLine(message);
-                progressBar1.Value = 100;
+                serialManager.WriteLine(get);
             }
         }
 
         private void numericUpDown2_ValueChanged(object sender, EventArgs e)
         {
-            
+            noIdAlert.Text = "";
+            if (serialManager.IsOpen)
+            {
+                if (ids.IndexOf((int)idLed.Value) != -1)
+                {
+                    string id = idLed.Value.ToString();
+                    string message = id + "*get";
+                    serialManager.WriteLine(message);
+                }
+                else
+                {
+                    noIdAlert.Text = "NO EXISTIG ID";
+                }
+
+            }
         }
 
         private void offButton_Click(object sender, EventArgs e)
@@ -102,9 +121,10 @@ namespace ArduinoConsole
             if (offButton.Enabled && serialManager.IsOpen)
             {
                 string id = idLed.Value.ToString();
-                string message = id + " off";
+                string message = id + "*off";
+                string get = id + "*get";
                 serialManager.WriteLine(message);
-                progressBar1.Value = 0;
+                serialManager.WriteLine(get);
             }
         }
 
@@ -115,9 +135,10 @@ namespace ArduinoConsole
             {
                 string id = idLed.Value.ToString();
                 string val = dim.Value.ToString();
-                string message = id + " dim " + val;
+                string message = id + "*dim*" + val;
+                string get = id + "*get";
                 serialManager.WriteLine(message);
-                progressBar1.Value = (int)dim.Value;
+                serialManager.WriteLine(get);
             }
         }
 
@@ -148,7 +169,7 @@ namespace ArduinoConsole
             if (serialManager.IsOpen)
             {
                 string id = idLed.Value.ToString();
-                string message = id + " get";
+                string message = id + "*get";
                 serialManager.WriteLine(message);               
             }
         }
@@ -180,24 +201,43 @@ namespace ArduinoConsole
 
             List<string> mList = new List<string>();
 
-
-            //string message = "id 1 50";
-            string[] subs = m.Split(' ');
+            string[] subs = m.Split('*');
             foreach (var sub in subs)
             {
                 mList.Add(sub);
             }
 
             string[] mess = mList.ToArray();
-
             string type = mess[0];
-            string id = mess[1];
-
-            int brightness = int.Parse(mess[2]);
-            progressBar1.Value = brightness;
-
-            statusLabel.Visible = true;
-            statusLabel.Text = "Id " + id + ": " + brightness + "%";
+            switch (type)
+            {
+                //case "set":
+                //    int led = int.Parse(mess[1]);
+                //    int br = int.Parse(mess[2]);
+                //    if (led == idLed.Value)
+                //    {
+                //        progressBar1.Value = br;
+                //    }
+                //    break;
+                case "get":
+                    string id = mess[1];
+                    int brightness = int.Parse(mess[2]);
+                    progressBar1.Value = brightness;
+                    statusLabel.Visible = true;
+                    statusLabel.Text = "Led " + id + ": " + brightness + "%";
+                    break;
+                case "ids":
+                    try
+                    {
+                        for (int i = 1; i < mess.Length; i++)
+                        {
+                            ids.Add(int.Parse(mess[i]));
+                        }
+                    }
+                    catch
+                    {}
+                    break;
+            }
         }
     }
 }
