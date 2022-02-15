@@ -18,14 +18,23 @@ namespace DemoSerial
             {
                 sPort.Open();
 
-                while (sPort.IsOpen)
-                {
-                    Console.Write("Message: ");
-                    string a = Console.ReadLine();
-                    sPort.WriteLine(a);
-                    Console.WriteLine("Tasto invio per inserire un'altro messaggio");
-                    Console.ReadLine();
-                }
+                byte slaveId = 1;
+                ushort outputAddress = 2;   // this is the address of the first output of the plc
+                ushort inputAddress = 0;    // this is the address of the first input of the plc
+                ushort numRegisters = 2;
+
+
+               //slv  fun    address     data     checksum
+              //0x01 0x05  0x00 0xFA  0xFF 0x00  0x0B 0xAC
+
+
+
+
+
+
+
+
+
             }
             catch (ArgumentException e)
             {
@@ -33,21 +42,7 @@ namespace DemoSerial
             }
 
             Console.ReadLine();
-            //List<string> m = new List<string>();
-
-
-            //    string message = "id 1 50";
-            //    string[] subs = message.Split(' ');
-            //    foreach (var sub in subs)
-            //    {
-            //        m.Add(sub);
-            //    }
-
-            //string[] mess = m.ToArray();
-            //string type = mess[0].ToString();
-            //int id = int.Parse(mess[1]);
-            //int brightness = int.Parse(mess[2]);
-            //Console.WriteLine($"type: {type}, id: {id}, brightness: {brightness} ");
+            
 
         }
     }
