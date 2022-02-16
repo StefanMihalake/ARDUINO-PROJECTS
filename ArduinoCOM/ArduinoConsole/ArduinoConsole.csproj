@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ModBusManager\ModBusManager.csproj" />
     <ProjectReference Include="..\SerialManager\SerialManager.csproj" />
   </ItemGroup>
 

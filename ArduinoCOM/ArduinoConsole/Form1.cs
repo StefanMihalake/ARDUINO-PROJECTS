@@ -1,4 +1,5 @@
-﻿using SerialManager;
+﻿using ModBusManager;
+using SerialManager;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -18,8 +19,12 @@ namespace ArduinoConsole
         
         bool isConnected = false;
         String[] ports;
-        SerialPort serialManager;
+        TSerialManager serialManager;
         List<int> ids = new List<int>();
+
+        byte[] requestToSend;
+        int function;
+        int num;
 
         public Form1()
         {
@@ -41,34 +46,34 @@ namespace ArduinoConsole
             DisableCommand();                                                       // disable all comand til get the connection on
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void connect_button(object sender, EventArgs e)
         {
-            setTrasparentStatusLabel();                                             // set trasparent the get information area
-            selectedPort.Text = "COM PORT";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {   
             setTrasparentStatusLabel();
             if (isConnected == false)
             {
                 try
                 {
-                    string selectedPort = this.selectedPort.GetItemText(this.selectedPort.SelectedItem);                   // get the selected port
-                    serialManager = new SerialPort(selectedPort, 9600, System.IO.Ports.Parity.None, 8, System.IO.Ports.StopBits.One);       // create connection with the port selected
+                    string selectedPort = this.selectedPort.GetItemText(this.selectedPort.SelectedItem);      // get the selected port
+                    serialManager = new TSerialManager( selectedPort, 
+                                                        9600, 
+                                                        System.IO.Ports.Parity.None, 
+                                                        8, 
+                                                        System.IO.Ports.StopBits.One);       // create connection with the port selected
+                    
                     serialManager.Open();                                               // open the port
-                    serialManager.DataReceived += SerialManager_GetStatusResponse;      // if there is any respons send to the Serial response Manager 
+                   
+                    serialManager.DataReceived += GetStatusResponseModBus;      // if there is any respons send to the Serial response Manager 
                     isConnected = true;
                     EnableCommand();                                                    // enable comand
                     connectButton.Text = "Disconnect";
                     connectButton.BackColor = Color.IndianRed;
                     errorPortAlert.Text = "";                                           // set void alert
 
-                    string message = "ids";                                             
+                    string message = "ids";
                     serialManager.WriteLine(message);                                   // ask the ids to arduino
-
+                    
                 }
-                catch(ArgumentException ex)
+                catch (ArgumentException ex)
                 {
                     Console.WriteLine(ex.Message);
                     errorPortAlert.Text = "ERROR SELECT ANOTHER PORT";
@@ -81,9 +86,15 @@ namespace ArduinoConsole
                 connectButton.BackColor = Color.DarkSeaGreen;
                 connectButton.Text = "Connect";                                         // if disconnect from the port set the label name
                 serialManager.Close();                                                  // close the com port
-                serialManager.DataReceived -= SerialManager_GetStatusResponse;          
+                serialManager.DataReceived -= GetStatusResponseModBus;
                 isConnected = false;
             }
+        }
+
+        private void select_Port_combo(object sender, EventArgs e)
+        {
+            setTrasparentStatusLabel();                                             // set trasparent the get information area
+            selectedPort.Text = "COM PORT";
         }
 
         private void onButton_Click(object sender, EventArgs e)
@@ -91,15 +102,17 @@ namespace ArduinoConsole
             setTrasparentStatusLabel();                                                 // set trasparent the get information area
             if (serialManager.IsOpen)
             {
-                string id = idLed.Value.ToString();
-                string message = id + "*on";
-                string get = id + "*get";
-                serialManager.WriteLine(message);
-                serialManager.WriteLine(get);
+                //string id = idLed.Value.ToString();
+                //string message = id + "*on";
+                //string get = id + "*get";
+                //serialManager.WriteLine(message);
+                //serialManager.WriteLine(get);
+
+
             }
         }
 
-        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+        private void no_id_alert(object sender, EventArgs e)
         {
             noIdAlert.Text = "";
             if (serialManager.IsOpen)
@@ -147,7 +160,6 @@ namespace ArduinoConsole
             }
         }
 
-
         private void EnableCommand()
         {
             idLed.Enabled = true;
@@ -173,16 +185,19 @@ namespace ArduinoConsole
         {
             if (serialManager.IsOpen)
             {
-                string id = idLed.Value.ToString();
-                string message = id + "*get";
-                serialManager.WriteLine(message);               
+                //string id = idLed.Value.ToString();
+                //string message = id + "*get";
+                //serialManager.WriteLine(message);
+                requestToSend = TModBusSerial.sendMessageRead(serialManager,
+                      (int)device_address.Value, 3, 100+((int)idLed.Value-1), 1);
+                function = 3;
             }
         }
 
-        private void SerialManager_GetStatusResponse(object sender, SerialDataReceivedEventArgs e)
+        private void GetStatusResponse(object sender, SerialDataReceivedEventArgs e)
         {
             
-                SerialPort serialPort = sender as SerialPort;
+                TSerialManager serialPort = sender as TSerialManager;
                 if (serialPort != null)
                 {
                     string m = serialPort.ReadLine();
@@ -196,6 +211,22 @@ namespace ArduinoConsole
                 }
         }
 
+        private void GetStatusResponseModBus(object sender, SerialDataReceivedEventArgs e)
+        {
+            Task.Run(() =>
+            {
+                TSerialManager serialPort = sender as TSerialManager;
+                if (serialPort != null)
+                {
+                    List<int> data = TModBusSerial.getMessage(serialManager, requestToSend, function, num);
+                    if (data.Count > 0)
+                    {
+                        statusLabel.Text = data[0].ToString();
+                    }
+                }
+            });
+        }
+
         private void setTrasparentStatusLabel()
         {
             statusLabel.Visible = false;
@@ -203,51 +234,7 @@ namespace ArduinoConsole
 
         private void StatusResponse(string m)
         {
-
-            List<string> mList = new List<string>();
-
-            string[] subs = m.Split('*');
-            foreach (var sub in subs)
-            {
-                mList.Add(sub);
-            }
-
-            string[] mess = mList.ToArray();
-            string type = mess[0];
-            switch (type)
-            {
-                case "set":
-                    int led = int.Parse(mess[1]);
-                    int br = int.Parse(mess[2]);
-                    if (led == idLed.Value)
-                    {
-                        progressBar1.Value = br;
-                        dim.Value = br;
-                        trackDim.Value = br;
-                    }
-                    break;
-                case "get":
-                    string id = mess[1];
-                    int brightness = int.Parse(mess[2]);
-                    progressBar1.Value = brightness;
-                    dim.Value = brightness;
-                    trackDim.Value = brightness;
-                    statusLabel.Visible = true;
-                    dim.Value = brightness;
-                    statusLabel.Text = "Led " + id + ": " + brightness + "%";
-                    break;
-                case "ids":
-                    try
-                    {
-                        for (int i = 1; i < mess.Length; i++)
-                        {
-                            ids.Add(int.Parse(mess[i]));
-                        }
-                    }
-                    catch
-                    {}
-                    break;
-            }
+            
         }
 
         private void trackDim_Scroll(object sender, EventArgs e)
@@ -264,5 +251,7 @@ namespace ArduinoConsole
                 //serialManager.WriteLine(get);
             }
         }
+
+        
     }
 }

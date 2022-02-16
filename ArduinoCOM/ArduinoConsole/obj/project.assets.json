@@ -159,6 +159,19 @@
           }
         }
       },
+      "ModBusManager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "SerialManager": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ModBusManager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ModBusManager.dll": {}
+        }
+      },
       "SerialManager/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -490,6 +503,11 @@
         "version.txt"
       ]
     },
+    "ModBusManager/1.0.0": {
+      "type": "project",
+      "path": "../ModBusManager/ModBusManager.csproj",
+      "msbuildProject": "../ModBusManager/ModBusManager.csproj"
+    },
     "SerialManager/1.0.0": {
       "type": "project",
       "path": "../SerialManager/SerialManager.csproj",
@@ -498,6 +516,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "ModBusManager >= 1.0.0",
       "SerialManager >= 1.0.0",
       "System.IO.Ports >= 6.0.0"
     ]
@@ -529,6 +548,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
+              "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj"
+            },
             "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
               "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
             }

@@ -9,6 +9,8 @@ namespace SerialManager
 {
     public class TSerialManager : System.IO.Ports.SerialPort
     {
+        public bool recived { get; set; }
+
         public TSerialManager(string portName, int baudRate, System.IO.Ports.Parity parity, int dataBits, System.IO.Ports.StopBits stopBits)
             : base(portName, baudRate, parity, dataBits, stopBits)
         {
@@ -22,7 +24,8 @@ namespace SerialManager
                 SerialPort serialPort = sender as SerialPort;
                 if (serialPort != null)
                 {
-                    string m = serialPort.ReadLine();
+                    recived = true;
+                   
                 }
             });
         }

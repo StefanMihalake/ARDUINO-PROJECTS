@@ -44,35 +44,39 @@ namespace ArduinoConsole
             this.trackDim = new System.Windows.Forms.TrackBar();
             this.noIdAlert = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.device_address = new System.Windows.Forms.NumericUpDown();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dim)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.idLed)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.trackDim)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.device_address)).BeginInit();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // connectButton
             // 
             this.connectButton.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.connectButton.ForeColor = System.Drawing.Color.Black;
-            this.connectButton.Location = new System.Drawing.Point(18, 108);
+            this.connectButton.Location = new System.Drawing.Point(24, 98);
             this.connectButton.Name = "connectButton";
             this.connectButton.Size = new System.Drawing.Size(156, 59);
             this.connectButton.TabIndex = 0;
             this.connectButton.Text = "Connect";
             this.connectButton.UseVisualStyleBackColor = false;
-            this.connectButton.Click += new System.EventHandler(this.button1_Click);
+            this.connectButton.Click += new System.EventHandler(this.connect_button);
             // 
             // selectedPort
             // 
             this.selectedPort.AccessibleName = "";
             this.selectedPort.FormattingEnabled = true;
-            this.selectedPort.Location = new System.Drawing.Point(18, 52);
+            this.selectedPort.Location = new System.Drawing.Point(24, 55);
             this.selectedPort.Name = "selectedPort";
             this.selectedPort.Size = new System.Drawing.Size(156, 23);
             this.selectedPort.TabIndex = 1;
             this.selectedPort.Text = "SELECT COM PORT";
-            this.selectedPort.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.selectedPort.SelectedIndexChanged += new System.EventHandler(this.select_Port_combo);
             // 
             // onButton
             // 
@@ -117,7 +121,7 @@ namespace ArduinoConsole
             this.idLed.Name = "idLed";
             this.idLed.Size = new System.Drawing.Size(120, 23);
             this.idLed.TabIndex = 9;
-            this.idLed.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            this.idLed.ValueChanged += new System.EventHandler(this.no_id_alert);
             // 
             // progressBar1
             // 
@@ -168,7 +172,7 @@ namespace ArduinoConsole
             this.groupBox1.Controls.Add(this.dim);
             this.groupBox1.Controls.Add(this.setDim);
             this.groupBox1.Controls.Add(this.onButton);
-            this.groupBox1.Location = new System.Drawing.Point(252, 40);
+            this.groupBox1.Location = new System.Drawing.Point(264, 95);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(492, 260);
             this.groupBox1.TabIndex = 15;
@@ -199,18 +203,37 @@ namespace ArduinoConsole
             this.groupBox2.Controls.Add(this.errorPortAlert);
             this.groupBox2.Controls.Add(this.selectedPort);
             this.groupBox2.Controls.Add(this.connectButton);
-            this.groupBox2.Location = new System.Drawing.Point(17, 40);
+            this.groupBox2.Location = new System.Drawing.Point(17, 19);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(214, 259);
+            this.groupBox2.Size = new System.Drawing.Size(214, 336);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Connect to Arduino";
+            // 
+            // device_address
+            // 
+            this.device_address.Location = new System.Drawing.Point(26, 22);
+            this.device_address.Name = "device_address";
+            this.device_address.Size = new System.Drawing.Size(120, 23);
+            this.device_address.TabIndex = 17;
+            this.device_address.TabStop = false;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.device_address);
+            this.groupBox3.Location = new System.Drawing.Point(264, 19);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(491, 66);
+            this.groupBox3.TabIndex = 18;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Device id";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(787, 338);
+            this.ClientSize = new System.Drawing.Size(787, 393);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
@@ -223,6 +246,8 @@ namespace ArduinoConsole
             ((System.ComponentModel.ISupportInitialize)(this.trackDim)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.device_address)).EndInit();
+            this.groupBox3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -245,6 +270,8 @@ namespace ArduinoConsole
         private System.Windows.Forms.Label noIdAlert;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TrackBar trackDim;
+        private System.Windows.Forms.NumericUpDown device_address;
+        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
 
