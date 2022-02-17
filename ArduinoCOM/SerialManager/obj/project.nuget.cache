@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lSqEwcRz4Rrc7lFZAeMxuOIE190pwPqL0FNfbYWfG6bAfrIJwedUTYLJHhjhf0N683AD2wW8SCVYJMcBD1Ew1w==",
+  "dgSpecHash": "MymnJ13odELlOGkcDORRhCMhppMiBloq2kHujBdBBlgfVFYEs7XchxgyULHVABhR5uicXcqkKiJpR9df0rXjDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
