@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "ArduinoConsole/1.0.0": {
         "dependencies": {
+          "ModBusManager": "1.0.0",
           "SerialManager": "1.0.0",
           "System.IO.Ports": "6.0.0"
         },
@@ -160,6 +161,14 @@
           }
         }
       },
+      "ModBusManager/1.0.0": {
+        "dependencies": {
+          "SerialManager": "1.0.0"
+        },
+        "runtime": {
+          "ModBusManager.dll": {}
+        }
+      },
       "SerialManager/1.0.0": {
         "dependencies": {
           "System.IO.Ports": "6.0.0"
@@ -259,6 +268,11 @@
       "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "path": "system.security.principal.windows/5.0.0",
       "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+    },
+    "ModBusManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SerialManager/1.0.0": {
       "type": "project",

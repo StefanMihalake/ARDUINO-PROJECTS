@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {}
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\TSerialManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\TSerialManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
-        "projectName": "SerialManager",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\TSerialManager.csproj",
+        "projectName": "TSerialManager",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\TSerialManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\obj\\",
         "projectStyle": "PackageReference",

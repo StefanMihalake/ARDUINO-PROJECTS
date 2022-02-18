@@ -32,3 +32,6 @@ C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\obj\Debug\netcoreapp3.1
 C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\obj\Debug\netcoreapp3.1\ArduinoConsole.genruntimeconfig.cache
 C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\bin\Debug\netcoreapp3.1\SerialManager.dll
 C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\bin\Debug\netcoreapp3.1\SerialManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\bin\Debug\netcoreapp3.1\ModBusManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\bin\Debug\netcoreapp3.1\ModBusManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ArduinoConsole\obj\Debug\netcoreapp3.1\ArduinoConsole.LoginPage.resources

@@ -11,3 +11,16 @@ C:\Users\testuser\Desktop\ARDUINO-GIT\ARDUINO-PROJECTS\ArduinoCOM\ModBusManager\
 C:\Users\testuser\Desktop\ARDUINO-GIT\ARDUINO-PROJECTS\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.csproj.CopyComplete
 C:\Users\testuser\Desktop\ARDUINO-GIT\ARDUINO-PROJECTS\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.dll
 C:\Users\testuser\Desktop\ARDUINO-GIT\ARDUINO-PROJECTS\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.csproj.AssemblyReference.cache
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.AssemblyInfoInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.AssemblyInfo.cs
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.csproj.CoreCompileInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\bin\Debug\netcoreapp3.1\ModBusManager.deps.json
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\bin\Debug\netcoreapp3.1\ModBusManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\bin\Debug\netcoreapp3.1\ModBusManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\bin\Debug\netcoreapp3.1\SerialManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\bin\Debug\netcoreapp3.1\SerialManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\ModBusManager\obj\Debug\netcoreapp3.1\ModBusManager.csproj.CopyComplete

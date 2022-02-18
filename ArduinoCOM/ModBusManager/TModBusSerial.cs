@@ -166,7 +166,7 @@ namespace ModBusManager
             return new byte[0];     //return an empty byte array
         }
 
-        public static byte[] GetMessage(TSerialManager serialPort, int cod, int numAdd)
+        public static byte[] GetMessage(TSerialManager serialPort)
         {
             var tStart = DateTime.Now;      //register the when it started waiting for the response
             bool recivedCheck = false;
@@ -180,6 +180,7 @@ namespace ModBusManager
                 ushort crcResponse = calcCRC(buffer);       //calculate crc of the full message of response (crc included)
                 if (crcResponse == 0)       //if the result is 0 it means that the message hasn't been corrupted
                 {
+                    serialPort.DiscardInBuffer();
                     return buffer;  //so return it
                 }
             }

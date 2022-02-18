@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {}
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
         "projectName": "ModBusManager",
-        "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ModBusManager\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
-                "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
+              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
         "projectName": "SerialManager",
-        "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

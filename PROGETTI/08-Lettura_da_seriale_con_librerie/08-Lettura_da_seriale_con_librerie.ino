@@ -14,8 +14,8 @@ Dimmer butLed2(2, bPin2, led2, 25, 255, 1500, 250);
 // ISTANCE LIST
 Dimmer dimmers[] = {butLed1, butLed2};
 
-//itemNumber, startCoil, startHReg, startIReg, startDIReg)
-Orchestrator orch(1, 9600, 2, 100, 200, 100, 100);
+//idDispositivo, porta Com, itemNumber, startCoil, startHReg, startIReg, startDIReg, startIDIReg)
+Orchestrator orch(1, 9600, 2, 100, 200, 100, 100, 800);
 
 void setup() {
   Serial.begin(9600);
