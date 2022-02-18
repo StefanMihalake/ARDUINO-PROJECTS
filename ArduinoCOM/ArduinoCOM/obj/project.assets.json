@@ -507,11 +507,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoCOM\\ArduinoCOM.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ArduinoCOM\\ArduinoCOM.csproj",
       "projectName": "ArduinoCOM",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoCOM\\ArduinoCOM.csproj",
+      "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ArduinoCOM\\ArduinoCOM.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoCOM\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\ArduinoCOM\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -528,8 +528,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
-              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
+            "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+              "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
             }
           }
         }

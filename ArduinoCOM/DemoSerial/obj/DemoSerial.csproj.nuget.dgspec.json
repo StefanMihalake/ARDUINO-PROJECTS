@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj": {}
+    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj": {
+    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj",
         "projectName": "DemoSerial",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj",
+        "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\DemoSerial\\DemoSerial.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\DemoSerial\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\DemoSerial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
-                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
+              "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+                "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
               }
             }
           }
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+    "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
         "projectName": "SerialManager",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\Desktop\\ARDUINO-GIT\\ARDUINO-PROJECTS\\ArduinoCOM\\SerialManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
