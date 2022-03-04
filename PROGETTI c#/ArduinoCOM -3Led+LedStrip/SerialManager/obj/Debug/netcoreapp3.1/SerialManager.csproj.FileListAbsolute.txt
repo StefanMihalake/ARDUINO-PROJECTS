@@ -1,0 +1,10 @@
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\bin\Debug\netcoreapp3.1\SerialManager.deps.json
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\bin\Debug\netcoreapp3.1\SerialManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\bin\Debug\netcoreapp3.1\SerialManager.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.csproj.AssemblyReference.cache
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.AssemblyInfoInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.AssemblyInfo.cs
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.csproj.CoreCompileInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.dll
+C:\Users\testuser\source\repos\ArduinoCOM\SerialManager\obj\Debug\netcoreapp3.1\SerialManager.pdb

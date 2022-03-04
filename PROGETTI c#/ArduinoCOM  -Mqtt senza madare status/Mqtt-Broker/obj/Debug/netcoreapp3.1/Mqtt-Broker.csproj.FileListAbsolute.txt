@@ -1,0 +1,17 @@
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.exe
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.deps.json
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.runtimeconfig.json
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.runtimeconfig.dev.json
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.dll
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Mqtt-Broker.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\MQTTnet.dll
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.csproj.AssemblyReference.cache
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.AssemblyInfoInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.AssemblyInfo.cs
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.csproj.CoreCompileInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.csproj.CopyComplete
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.dll
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.pdb
+C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-Broker\obj\Debug\netcoreapp3.1\Mqtt-Broker.genruntimeconfig.cache

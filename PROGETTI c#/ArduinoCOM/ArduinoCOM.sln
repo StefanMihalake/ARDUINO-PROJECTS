@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32126.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialManager", "SerialManager\SerialManager.csproj", "{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArduinoConsole", "ArduinoConsole\ArduinoConsole.csproj", "{E84E9B46-9CB3-41CE-864C-1B77F4344D57}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD} = {9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}
+		{466892B7-327B-4052-8C2D-7F4B54345EA1} = {466892B7-327B-4052-8C2D-7F4B54345EA1}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModBusManager", "ModBusManager\ModBusManager.csproj", "{466892B7-327B-4052-8C2D-7F4B54345EA1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mqtt-Broker", "Mqtt-Broker\Mqtt-Broker.csproj", "{276F6730-329C-4F34-A55E-B0F5C16D9798}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClient", "MqttClient\MqttClient.csproj", "{F06F6DB8-5214-4B6C-BC53-5CB871855853}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MqttClient2", "MqttClient2\MqttClient2.csproj", "{9A313013-FD92-405B-940D-EC2E7E344CE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LedStrip", "LedStrip\LedStrip.csproj", "{60B116AD-F5F8-4DA3-A9E3-214EFCBCB1D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mqtt-ArduinoModbusWorcker", "Mqtt-ArduinoModbusWorcker\Mqtt-ArduinoModbusWorcker.csproj", "{12267003-5591-4548-AE5A-5EC24DD4755E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mqtt-WinForm", "Mqtt-WinForm\Mqtt-WinForm.csproj", "{532D1575-F04B-4E1C-9682-C7E30B843983}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F2E8CA7-F04F-4B06-B879-6EF0E43181BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E84E9B46-9CB3-41CE-864C-1B77F4344D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E84E9B46-9CB3-41CE-864C-1B77F4344D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E84E9B46-9CB3-41CE-864C-1B77F4344D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E84E9B46-9CB3-41CE-864C-1B77F4344D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466892B7-327B-4052-8C2D-7F4B54345EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466892B7-327B-4052-8C2D-7F4B54345EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466892B7-327B-4052-8C2D-7F4B54345EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466892B7-327B-4052-8C2D-7F4B54345EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276F6730-329C-4F34-A55E-B0F5C16D9798}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276F6730-329C-4F34-A55E-B0F5C16D9798}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276F6730-329C-4F34-A55E-B0F5C16D9798}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276F6730-329C-4F34-A55E-B0F5C16D9798}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06F6DB8-5214-4B6C-BC53-5CB871855853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06F6DB8-5214-4B6C-BC53-5CB871855853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06F6DB8-5214-4B6C-BC53-5CB871855853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06F6DB8-5214-4B6C-BC53-5CB871855853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A313013-FD92-405B-940D-EC2E7E344CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A313013-FD92-405B-940D-EC2E7E344CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A313013-FD92-405B-940D-EC2E7E344CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A313013-FD92-405B-940D-EC2E7E344CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B116AD-F5F8-4DA3-A9E3-214EFCBCB1D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B116AD-F5F8-4DA3-A9E3-214EFCBCB1D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B116AD-F5F8-4DA3-A9E3-214EFCBCB1D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B116AD-F5F8-4DA3-A9E3-214EFCBCB1D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12267003-5591-4548-AE5A-5EC24DD4755E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12267003-5591-4548-AE5A-5EC24DD4755E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12267003-5591-4548-AE5A-5EC24DD4755E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12267003-5591-4548-AE5A-5EC24DD4755E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532D1575-F04B-4E1C-9682-C7E30B843983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532D1575-F04B-4E1C-9682-C7E30B843983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532D1575-F04B-4E1C-9682-C7E30B843983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532D1575-F04B-4E1C-9682-C7E30B843983}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7367B824-B6B1-4183-A45A-0380CDF76C8C}
+	EndGlobalSection
+EndGlobal
