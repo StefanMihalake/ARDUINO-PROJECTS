@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZKOTJu7RbIBV5se7fZVSQJ5+cjXjeExMEpb/LBUxWqQ7mOZ2tQNCQDdX7BQqjhT1bGIN0WK46q+O34DgKN1W3g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM - ULTIMO\\Mqtt-Broker\\Mqtt-Broker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\testuser\\.nuget\\packages\\mqttnet\\3.1.2\\mqttnet.3.1.2.nupkg.sha512",
+    "C:\\Users\\testuser\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

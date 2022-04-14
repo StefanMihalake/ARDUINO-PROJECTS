@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MymnJ13odELlOGkcDORRhCMhppMiBloq2kHujBdBBlgfVFYEs7XchxgyULHVABhR5uicXcqkKiJpR9df0rXjDw==",
+  "dgSpecHash": "tgJTsrAWuaE3ZiS6EBZDmzlwyowFQH+9PfZ8WTsgjPdZXWrE6utK6RGHPc7OHf+f1QLowAvXeBDzVRuHcp7HPg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

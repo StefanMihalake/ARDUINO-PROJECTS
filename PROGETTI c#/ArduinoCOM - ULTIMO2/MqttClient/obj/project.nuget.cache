@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VDQvVDCT78GebuKNHPYw/AVb6/OAeFk1xj25sACMbe/AjHsbYfZQw3tzP+AJorV2NozbcMtpa9DTMz5FVrcxgw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mihal\\source\\repos\\ARDUINO\\Progetti c#\\ArduinoCOM - ULTIMO\\MqttClient\\MqttClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mihal\\.nuget\\packages\\mqttnet\\3.1.2\\mqttnet.3.1.2.nupkg.sha512",
+    "C:\\Users\\mihal\\.nuget\\packages\\mqttnet.extensions.managedclient\\3.1.2\\mqttnet.extensions.managedclient.3.1.2.nupkg.sha512",
+    "C:\\Users\\mihal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mihal\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512"
+  ],
+  "logs": []
+}

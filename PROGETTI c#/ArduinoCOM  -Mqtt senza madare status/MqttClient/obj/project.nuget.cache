@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vIp/TfZT+4e7zUhuV6rvE0o+z0Rnza0dQFlp8InvKqlkABD9uWvuMM+5F7E7IwaYXH3la94ZnPvsKl0+WfGrxw==",
+  "dgSpecHash": "Dy4ktiISXu0m5hsND8JKb2GW9VvGSfEF8vJPw/U4EE8qE1qU2VoypYjPS1ESM/vxMwJ+z4+jg1FVQiUcsrCudg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\MqttClient\\MqttClient.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\MqttClient\\MqttClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\mqttnet\\3.1.2\\mqttnet.3.1.2.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\mqttnet.extensions.managedclient\\3.1.2\\mqttnet.extensions.managedclient.3.1.2.nupkg.sha512",

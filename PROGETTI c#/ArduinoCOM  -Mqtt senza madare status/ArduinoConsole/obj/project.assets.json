@@ -695,11 +695,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoConsole\\ArduinoConsole.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ArduinoConsole\\ArduinoConsole.csproj",
       "projectName": "ArduinoConsole",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoConsole\\ArduinoConsole.csproj",
+      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ArduinoConsole\\ArduinoConsole.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoConsole\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ArduinoConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -716,11 +716,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
-              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj"
+            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj": {
+              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj"
             },
-            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
-              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
+            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj": {
+              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj"
             }
           }
         }

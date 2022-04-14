@@ -19,3 +19,24 @@ C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-WinForm\obj\Debug\netcoreapp3.1\M
 C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.dll
 C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.pdb
 C:\Users\testuser\source\repos\ArduinoCOM\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.genruntimeconfig.cache
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.exe
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.deps.json
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.runtimeconfig.json
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.runtimeconfig.dev.json
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Mqtt-WinForm.pdb
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\MQTTnet.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\MQTTnet.Extensions.ManagedClient.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\bin\Debug\netcoreapp3.1\ReaLTaiizor.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.csproj.AssemblyReference.cache
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt_WinForm.Form1.resources
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.csproj.GenerateResource.cache
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.AssemblyInfoInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.AssemblyInfo.cs
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.csproj.CoreCompileInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.csproj.CopyComplete
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.dll
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.pdb
+C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\Mqtt-WinForm\obj\Debug\netcoreapp3.1\Mqtt-WinForm.genruntimeconfig.cache

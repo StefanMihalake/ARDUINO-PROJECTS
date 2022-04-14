@@ -631,11 +631,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj",
       "projectName": "LedStrip",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj",
+      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -652,8 +652,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
-              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj"
+            "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj": {
+              "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj"
             }
           }
         }

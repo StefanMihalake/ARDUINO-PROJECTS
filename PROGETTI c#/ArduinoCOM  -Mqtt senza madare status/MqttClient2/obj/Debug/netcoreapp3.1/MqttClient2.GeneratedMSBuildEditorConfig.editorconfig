@@ -1,3 +1,3 @@
 is_global = true
 build_property.RootNamespace = MqttClient2
-build_property.ProjectDir = C:\Users\testuser\source\repos\ArduinoCOM\MqttClient2\
+build_property.ProjectDir = C:\Users\testuser\source\repos\ArduinoCOM  -Mqtt senza madare status\MqttClient2\

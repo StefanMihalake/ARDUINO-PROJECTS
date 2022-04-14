@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj": {}
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj": {}
   },
   "projects": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj",
         "projectName": "LedStrip",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\LedStrip.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\LedStrip\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
-                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj"
+              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj": {
+                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj",
         "projectName": "ModBusManager",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -103,8 +103,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
-                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj"
+              "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj": {
+                "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj"
               }
             }
           }
@@ -137,14 +137,14 @@
         }
       }
     },
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj",
         "projectName": "SerialManager",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\SerialManager.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\SerialManager.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\SerialManager\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\SerialManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

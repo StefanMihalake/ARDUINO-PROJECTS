@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OfyW6XRhq3Uv3Pn/j5rAXyUgjhfloJcNVqE1uP1KZMew0tUiHBE80ukkfau3z6OM9r5Qux/NSggK1DiJ0g0ZrQ==",
+  "dgSpecHash": "kzI4bkOVxOC0V84F8uQPFFq62pwYlPJJXVWnRa8dov2oCzf0BzbT0ed23k6pdNO/VismDGw8mnwPfpXNlRbbDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ModBusManager\\ModBusManager.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ModBusManager\\ModBusManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

@@ -128,11 +128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\MqttClient2\\MqttClient2.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\MqttClient2\\MqttClient2.csproj",
       "projectName": "MqttClient2",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\MqttClient2\\MqttClient2.csproj",
+      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\MqttClient2\\MqttClient2.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\MqttClient2\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\MqttClient2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

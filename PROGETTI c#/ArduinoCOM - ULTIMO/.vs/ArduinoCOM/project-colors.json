@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "12267003-5591-4548-ae5a-5ec24dd4755e": {
+      "ProjectGuid": "12267003-5591-4548-ae5a-5ec24dd4755e",
+      "DisplayName": "Mqtt-ArduinoModbusWorcker",
+      "ColorIndex": 0
+    },
+    "60b116ad-f5f8-4da3-a9e3-214efcbcb1d8": {
+      "ProjectGuid": "60b116ad-f5f8-4da3-a9e3-214efcbcb1d8",
+      "DisplayName": "LedStrip",
+      "ColorIndex": 1
+    },
+    "e84e9b46-9cb3-41ce-864c-1b77f4344d57": {
+      "ProjectGuid": "e84e9b46-9cb3-41ce-864c-1b77f4344d57",
+      "DisplayName": "ArduinoConsole",
+      "ColorIndex": 2
+    },
+    "532d1575-f04b-4e1c-9682-c7e30b843983": {
+      "ProjectGuid": "532d1575-f04b-4e1c-9682-c7e30b843983",
+      "DisplayName": "Mqtt-WinForm",
+      "ColorIndex": 3
+    },
+    "276f6730-329c-4f34-a55e-b0f5c16d9798": {
+      "ProjectGuid": "276f6730-329c-4f34-a55e-b0f5c16d9798",
+      "DisplayName": "Mqtt-Broker",
+      "ColorIndex": 4
+    },
+    "466892b7-327b-4052-8c2d-7f4b54345ea1": {
+      "ProjectGuid": "466892b7-327b-4052-8c2d-7f4b54345ea1",
+      "DisplayName": "ModBusManager",
+      "ColorIndex": 5
+    },
+    "e085bfb3-d754-4b04-885e-8f0fdc76725e": {
+      "ProjectGuid": "e085bfb3-d754-4b04-885e-8f0fdc76725e",
+      "DisplayName": "CommunicationArduinoModbusMqtt",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+}

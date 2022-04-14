@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V7t6yDKzv5ooX3SITvyWnzT2bcK1hWI6EXRQnOnFF1PRTMqYMuppGsbyw1v3+ylJnmuZ7qj7gXrBnINXI51+Mg==",
+  "dgSpecHash": "BbGAUJFNBecFTWdxzmbCXuxpmmJIFhIX631XgR7NCBPqh7whnQkgImHNPUVXxTelz0Qi04B2OJuXaE2ET5GlmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\LedStrip\\LedStrip.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM -3Led+LedStrip\\LedStrip\\LedStrip.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\bootstrap\\2.3.1\\bootstrap.2.3.1.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\bootstrap-colorpicker\\2.3.2\\bootstrap-colorpicker.2.3.2.nupkg.sha512",

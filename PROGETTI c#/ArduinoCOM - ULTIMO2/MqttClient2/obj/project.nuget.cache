@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "jSPp1eqviug9Vm0pvR4L16SLHE+hf/1PYCBFSLkh6L0i6mk60pn9GBt6uZChRm7ujOBVH7zHerh5oH/AJAnVbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mihal\\source\\repos\\ARDUINO\\Progetti c#\\ArduinoCOM - ULTIMO\\MqttClient2\\MqttClient2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mihal\\.nuget\\packages\\mqttnet\\3.1.2\\mqttnet.3.1.2.nupkg.sha512",
+    "C:\\Users\\mihal\\.nuget\\packages\\mqttnet.extensions.managedclient\\3.1.2\\mqttnet.extensions.managedclient.3.1.2.nupkg.sha512",
+    "C:\\Users\\mihal\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

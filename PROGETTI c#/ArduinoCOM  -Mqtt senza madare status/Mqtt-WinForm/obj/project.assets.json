@@ -184,11 +184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-WinForm\\Mqtt-WinForm.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-WinForm\\Mqtt-WinForm.csproj",
       "projectName": "Mqtt-WinForm",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-WinForm\\Mqtt-WinForm.csproj",
+      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-WinForm\\Mqtt-WinForm.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-WinForm\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-WinForm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = MqttBroker
+build_property.ProjectDir = C:\Users\testuser\source\repos\ArduinoCOM\MqttBroker\

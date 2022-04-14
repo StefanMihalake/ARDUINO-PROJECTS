@@ -1,0 +1,10 @@
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\bin\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.deps.json
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\bin\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.dll
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\bin\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.pdb
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.csproj.AssemblyReference.cache
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.AssemblyInfoInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.AssemblyInfo.cs
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.dll
+C:\Users\testuser\source\repos\ArduinoCOM - ULTIMO2\CommunicationArduinoModbusMqtt\obj\Debug\netcoreapp3.1\ArduinoModbusMqttClassLibrary.pdb

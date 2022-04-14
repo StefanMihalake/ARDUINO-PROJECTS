@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oCMYHrNYorH/HOJMyy7gjaLyjIWxb2rblFKmcCKgMDqJXatGzOKu/iSiJdL8LDkdCND0oRDpqnIt6J6J3+TRBg==",
+  "dgSpecHash": "J3MM0yi9mPtv4tPpBLfiPBRUdZa3foIsf3/QbymAGOM8QkLT9JOKADEejf2KEwPyZmMMhEmtUBEafHsmkK6Cyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\ArduinoConsole\\ArduinoConsole.csproj",
+  "projectFilePath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\ArduinoConsole\\ArduinoConsole.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\testuser\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

@@ -87,11 +87,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-Broker\\Mqtt-Broker.csproj",
+      "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM -3Led+LedStrip\\Mqtt-Broker\\Mqtt-Broker.csproj",
       "projectName": "Mqtt-Broker",
-      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-Broker\\Mqtt-Broker.csproj",
+      "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM -3Led+LedStrip\\Mqtt-Broker\\Mqtt-Broker.csproj",
       "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-Broker\\obj\\",
+      "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM -3Led+LedStrip\\Mqtt-Broker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",

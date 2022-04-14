@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj": {}
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj": {
+    "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj",
+        "projectUniqueName": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj",
         "projectName": "Mqtt-ArduinoModbusWorcker",
-        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj",
+        "projectPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-ArduinoModbusWorcker\\Mqtt-ArduinoModbusWorcker.csproj",
         "packagesPath": "C:\\Users\\testuser\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM\\Mqtt-ArduinoModbusWorcker\\obj\\",
+        "outputPath": "C:\\Users\\testuser\\source\\repos\\ArduinoCOM  -Mqtt senza madare status\\Mqtt-ArduinoModbusWorcker\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\testuser\\AppData\\Roaming\\NuGet\\NuGet.Config",
